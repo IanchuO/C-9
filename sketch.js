@@ -14,7 +14,6 @@ function draw()
   if (keyIsDown(LEFT_ARROW)) {
     box.position.x=box.position.x-5
   }
-  background(30);
   if (keyIsDown(UP_ARROW)) {
     box.position.y=box.position.y-5
   }
